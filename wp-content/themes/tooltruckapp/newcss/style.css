@@ -1,0 +1,55 @@
+/*
+Theme Name: TOOL TRUCK APP
+Author: TOOL TRUCK APP Team
+Author URI: http://112.196.85.52:8181/truckapp/
+Description: TOOL TRUCK APP enforcement theme is clean, blog-focused, and designed for clarity. Parking enforcement simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0 
+*/
+@font-face { font-family: "Averta Black"; src: url("fonts/AVERTA-BLACK-5937CBE30AB39.OTF") format("opentype");}
+@font-face {font-family: "Averta Demo";src: url("fonts/AVERTADEMO-REGULAR.OTF") format("opentype");}
+@font-face {font-family: "Averta Light";src: url("fonts/AVERTA-LIGHT-5937CBA3908C3.OTF") format("opentype");}
+@font-face {font-family: "Averta Bold";src: url("fonts/AVERTA-BOLD-5937CBCA0E351.OTF") format("opentype");}
+::selection{background:#ef1616;}
+body{
+}
+a:link,a:visited,a:active,a:hover{text-decoration:none !important;color:#fff !important;}
+.no-pad{padding-left:0 !important;padding-right:0 !important;}
+.no-pad-left{padding-left:0 !important;}
+.no-pad-right{padding-right:0 !important;}
+#masthead{background:transparent;position:absolute;width:100%;z-index:99;}
+.topMenuContainer{display: block;width: 100%;float: left;border-bottom: 1px solid #373737;}
+/*====== Social Menu ========*/
+.socialMailcontainer{margin-right:20px !important;font-family:Averta Light;}
+.socialMailcontainer,.socialMenuTop{padding:0;margin:10px 0 0;display:inline-block;color:#cccbcb;}
+.socialMenuTop li{display:inline-block;font-size:15px;}
+.socialMenuTop li a,.socialMenuTop li a:active,
+.socialMenuTop li a:visited,.socialMenuTop li a{color:#cccbcb;}
+/*====== Social Menu Ends ========*/
+/*====== Header Menu ========*/
+#LogoSec{max-width:190px;}
+#LogoSec img{max-width:100%;max-height:100%;margin:10px 0;}
+#Mainmenu ul{padding:0;margin:0;list-style-type:none;text-align:right;}
+#Mainmenu ul li,#Mainmenu ul li a{color:#fff;display:inline-block;font-size:17px;text-decoration:none !important;text-align:justify;font-family:Averta Demo;}
+#Mainmenu ul li{padding:33px 15px;}
+#Mainmenu ul li:last-child{padding-right:0;}
+/*====== Header Menu Ends ========*/
+.underlineLeft:after{content:"";position:absolute;width:27px;background:#ef1616;height:2px;left:0;bottom:0;}
+/*====== Home Slider ========*/
+.sliderMainhead h1{font-size:58px;font-weight:300;}
+/*====== Home Slider Ends ========*/
+/*====== Footer ========*/
+#siteFooter{background:#000;color:#fff;padding:30px 0;font-family:Averta Light;}
+.footerContainer{border-bottom:1px solid #373737;display:block;float:left;}
+.footerContainer .footerLogoContainer{margin:0 0 25px;}
+.footerContainer .footerDescription{margin:0 0 25px;font-size:16px;}
+.copyrightSection{margin-top:20px;float:left;}
+.footerHeadings{text-transform:uppercase;font-size:18px;position:relative;padding-bottom:10px;font-family:Averta Demo;}
+.footerMenu ul,.footerContact{list-style-type:none;padding:0;margin:0;font-size:16px;margin-top:30px;}
+.footerMenu ul li,.footerContact li{text-decoration:none;color:#fff;line-height:2;position:relative;padding-left:25px;}
+.footerMenu ul li a{text-decoration:none;color:#fff;}
+.footerMenu ul li a:before{content:"\f101";font-family:fontAwesome;font-size:16px;color:#fff;position:absolute;left:0;top:-1px;}
+.footerContact .footerAddress:before,.footerContact .footerMail:before{content:"\f041";position:absolute;font-size:18px;color:#ef1616;font-family:fontAwesome;left:0;top:-1px;}
+.footerContact .footerMail:before{content:"\f0e0";font-size:15px !important;}
+/*====== Footer Ends ========*/
+
+

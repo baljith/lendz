@@ -1,0 +1,787 @@
+html{overflow-x: hidden;}
+#content{
+    width: 100% !important;
+    overflow: hidden;
+}
+
+div.wpcf7-validation-errors {
+    display: none !important;
+}
+div.wpcf7-response-output {
+    margin: 1em -0.5em 0;
+    padding:0;
+}
+.custom_page{
+	width: 100%;
+	background: #f4f5f7;
+}
+.form-controler{
+ 	margin: 0 auto;
+ 	max-width: 570px;
+    background: #fff;
+    box-shadow: 2px 4px 5px #F2F3F5;
+    padding: 50px;
+
+}
+.form-group{
+	position: relative;
+	color: #9A9A9A;
+}
+.form_desc_text{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+.form_desc_text h1{
+	font-size: 35px;
+}
+.form-controler_space{
+    padding-bottom: 60px;
+    padding-top: 195px;
+}
+.form-controler_space .form-control{
+	height:50px;
+	color: #9A9A9A;
+}
+.input-group input::after{color:#11A2D9;content:" *";}
+.red_font{
+	color:#11A2D9;
+}
+.form-submit-btn{
+	background: #E30020;
+	color: #fff;
+	border-radius: 30px;
+	height: 55px;
+}
+.custom_form_style .input-group input{
+	border-radius: 30px;
+	padding: 6px 25px;
+	border-color:  #dcdcdc;
+}
+.custom_form_style .input-group select{
+	border-radius: 30px !important;
+	padding: 6px 25px;
+	border-color:  #dcdcdc;
+	
+}
+.custom_form_style .input-group {
+	width: 100%;
+}
+.custom_form_style .input-group-addon {
+    border-radius: 0 30px 30px 0;
+    padding: 6px 20px;
+    background: transparent;
+    border-color:  #dcdcdc;
+}
+.input-group select{
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+    appearance:  none; 
+}
+.dropdown-img{
+  background: #fff url("../images/icon-arrow_dropdown.svg") no-repeat scroll 96% center / 3% auto;
+}
+.chevron-down::before {
+	content:"";
+	position: absolute;
+    border-left: 1px solid #dcdcdc;
+    height: 100%;
+    z-index: 9999;
+    right: 50px;
+
+;
+}
+.input-group-addon i{
+	color: #B1B1B1;
+}
+.panel-heading_custom{
+	padding-top: 35px;
+}
+.form-submit-btn:hover, .form-submit-btn:active , .form-submit-btn:focus{
+	color: #fff;
+}
+/*.custom_form_style .form-group{
+     height: 65px;
+}*/
+.form-group  .checkbox{
+	float: left;
+}
+.forgate_password {
+
+    padding-top: 7px;
+}
+.who_we_are_p1{
+    font-size: 18px;
+    font-family: "Averta Demo";
+}
+.content-block{
+  font-size: 16px;
+  font-family: "Averta Light";
+  color: #838383;
+}
+.item.testimonial-post {
+    background: #fff;
+    position: relative;
+    width: 100%;
+    border: 1px solid #E7E7E7;
+    box-shadow: 4px 5px 9px #f2f2f2;
+    border-radius: 8px;
+    font-family: "Averta Light";
+    font-size: 16px;
+}
+.testimonial-line{
+	border-top: 1px solid #E7E7E7;
+	margin: 0;
+}
+.testimonials-sec{
+	height: auto;
+    min-height: 210px;
+    padding: 40px 30px 10px;
+}   
+.testimonial-post::before {
+    bottom: 0;
+    color: #f2f2f2;
+    content: "\f10d";
+    font-family: "FontAwesome";
+    font-size: 58px;
+    left: 23px;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height:20px;
+}
+.ratings-widget .glyphicon-star{
+	color: #E60024;
+}
+#people_testimonials .profile-circle {
+   bottom: 45px;
+    left: 78%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+.profile-circle img{
+	position: absolute;
+}
+.auther_desc {
+    padding: 20px 30px;
+     font-family: "Averta Demo";
+}
+.auther_desc span{
+    font-size: 15px;
+    color: #bdbdbd;
+}
+.auther_desc h4{
+
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #4c4c4c;
+}
+#wprmenu_menu li a:hover{
+	color: #DA1313 !important;
+	border-bottom: 1px solid #DA1313 !important;
+
+}
+.workdetails{
+      padding: 50px 20px  !important;
+      height: 400px;
+    
+}
+.workdetail_after::after {
+    color: #11A2D9;
+    content: "";
+    font-family: fontawesome;
+    font-size: 37px;
+    height: 60px;
+    position: absolute;
+    right: -37px;
+    top: 45px !important;
+    width: 61px;
+}
+.workdetails h1{
+  font-size: 20px;
+  font-family: "Averta SemiBold";
+}
+.workdetails p{
+    font-size: 16px;
+    font-family: "Averta Light";
+    color: #666666;
+    
+}
+.howDisclaimers {
+    font-family: Averta Light;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 70%;
+    padding-top: 20px;
+    text-align: center;
+}
+.stick{
+    position: fixed !important;
+    top: 0;
+    background:#000 !important;
+    z-index: 9999;
+}
+/*********** Contact US Page Start **************/
+.google-map .wpb_gmaps_widget .wpb_wrapper{
+	padding:0px;
+}
+.google-map .wpb_gmaps_widget{
+	margin: 0px !important;
+}
+.contact-us-details .vc_column-inner > .wpb_wrapper{
+	border: 1px solid #e7e7e7;
+    font-size: 16px;
+    padding: 30px 15px;
+    text-align: center;
+    background: #FBFBFB;
+    border-radius: 5px;
+}
+.contact-us-details h3{
+    font-family: "Averta Demo";
+    font-size: 22px;
+}
+.contact-us-details p{
+    font-family: "Averta Light";
+    font-size: 16px;
+    color: #999999;
+}
+.pricing-number .currency-symbol-left {
+    font-family: "Averta Demo";
+    font-size: 34px;
+    line-height: 96px;
+    padding-right: 10px;
+    vertical-align: top;
+
+}
+.pricing-number .currency {
+    font-size: 66px;
+    font-family: "Averta SemiBold";
+ 
+}
+.price_table p{
+    font-size: 17px;
+    font-family: "Averta Demo";
+}
+.custom_text_block p{
+   font-size: 18px;
+   font-family: "Averta Light";
+   color: #8c8c8c;
+}
+#contact_page_form input, #contact_page_form textarea{
+	border: 1px solid #DEDEDE;
+	border-radius: 30px;
+	height: 50px;
+    padding: 10px 25px;
+} 
+#contact_page_form .formField{
+	height: 75px;
+}
+#contact_page_form input[type="submit"] {
+	background: #11A2D9;
+    height: 65px;
+    width: 200px;
+}
+
+#contact_page_form span.wpcf7-not-valid-tip{
+    color: #DA0022;
+}
+#contact_page_form  .formField .homesubject {
+    background-image: url("../images/Inputsubjects.png");
+    background-position: 100% center;
+}
+
+/*********** Contact US Page End **************/
+.signUpButton_forplan a{
+    border: 1px solid #E30024 !important;
+    margin-top: 20px;
+    padding: 15px 30px !important;
+    background: #ffffff !important;
+    color: #ea1414 !important;
+
+}
+
+.pricing-plane .wpb_wrapper  .wpb_content_element{
+    margin: 0px;
+}
+.signUpButton_forplan {
+    padding-top: 20px;
+}
+.pricing-plane:hover .signUpButton_forplan a{
+    color: #FFFFFF !important;
+    background: #ed1515 !important;
+
+}
+.pricing-plane:hover .price_table{
+   color: #ffffff;
+   background-image: url("../images/pricretable_bgred.png");
+} 
+.pricing-plane .vc_column-inner > .wpb_wrapper {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 5px 8px 9px #FAFAFA;
+    margin: 10px;
+
+}
+.price_table p{
+    text-transform: uppercase;
+}
+.price_table{
+    background-image: url("../images/pricetable-bg.png");
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 240px;
+    padding: 35px 40px;
+    text-align: center;
+    width: 100%;
+}
+.price_table  h2 {
+    border-bottom: 1px solid #d1d1d1;
+    font-family: "Averta Demo";
+    font-size: 29px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.price_table  h1{
+    font-family: "Averta SemiBold";
+    font-size: 66px;
+}
+.price_list_item{
+    padding: 0px 40px;
+}
+.price_list_item  ul {
+    display: inline;
+    list-style: outside none none;
+}
+.price_list_item li {
+    border-bottom: 1px solid #D1D1D1;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-family: "Averta Light";
+    color: #6d6d6d;
+    word-wrap: break-word;
+}
+.accordian_custom_style a{
+    color: black !important;
+}
+.vc_active .vc_tta-panel-heading {
+    background: black none repeat scroll 0 0 !important;
+
+}
+.vc_tta-panel-body  .wpb_wrapper {
+    font-size: 16px !important;
+    font-family: "Averta Demo";
+}
+.accordian_custom_style  .vc_tta-title-text{
+    font-family: "Averta Demo";
+    font-size: 20px !important;
+}
+.accordian_custom_style  .vc_active span{
+    color: #fff !important;
+}
+.accordian_custom_style .vc_tta-panel-body{
+    background: #FBFBFB !important;
+    border-color: #E7E7E7 !important; 
+}
+.accordian_custom_style  .vc_tta-panel-heading{
+    border-color: #E7E7E7 !important; 
+}
+.accordian_custom_style  .accordian_custom_style  .vc_tta-color-white.vc_tta-style-modern .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after{
+    border-color: #fff !important;
+}
+.accordian_custom_style .vc_tta-color-white.vc_tta-style-modern .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before, .vc_tta-color-white.vc_tta-style-modern .vc_tta-controls-icon::after, .vc_tta-color-white.vc_tta-style-modern .vc_tta-controls-icon::before {
+    border-color: #11A2D9!important;
+}
+/************* Media Query  Start*****************/
+
+@media (min-width:320px) and (max-width:480px)  {
+	.form-controler_space {
+	    padding-bottom: 30px;
+	    padding-top: 175px;
+	}
+    .form-controler{
+    	max-width: 286px;
+        padding: 50px 30px;
+    }
+    label.error{font-size: 12px;}
+        .mainHeading h1 {
+        	font-size: 25px !important;
+	}
+    .getHeading{
+        font-size: 22px;
+    }
+    .custom_form .form-submit-btn{margin-top: 22px;}
+    .homeGetForm input[type="submit"]{
+        height: 50px;
+        width: 175px;
+    }
+    .benefitsCols img {
+        height: 70px;
+        width: 55px;
+    }
+    .benefitsCols > .wpb_wrapper {
+        margin-top: 25px;
+        padding: 15px 5px 25px;
+    }
+    .downloadAppHeading h1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .downloadAppList ul{
+        font-size: 15px;
+    }
+    .howHeading{
+        font-size: 18px;
+    }
+	.forgate_password {
+    	padding-right: 75px;
+    }
+    .custom_form_style .input-group-addon {
+ 
+    	padding: 6px 10px;
+	}
+	.form-control{
+		font-size: 12px;
+	}
+	.dropdown-img {
+    	background: #fff url("../images/icon-arrow_dropdown.svg") no-repeat scroll 93% center / 6% auto;
+	}
+	.chevron-down::before {
+
+    	right: 28px;
+
+	}
+	#people_testimonials .profile-circle {
+    	left: 58% !important;
+    	padding-bottom: 20px;
+	}
+	#LogoSec {
+    	max-width: 70px;
+	}
+    .benefitsCols{
+    	width: 31%;
+    }
+    .benefitsCols  p{
+    	font-size: 11px !important;
+    }
+    .downAppBtns .wpb_wrapper a img{
+    	margin-bottom: 20px !important;
+    }
+    .contact-us-details .vc_column-inner > .wpb_wrapper{
+        margin-bottom: 20px;
+    }
+    #contact_page_form .formField .homesubject{
+        background-position: 105% center;
+    }
+    .pricing-number .currency {
+        font-size: 35px;
+    }
+    .pricing-number .currency-symbol-left {
+        font-size: 20px;
+        line-height: 50px;
+        padding-right: 5px;
+    }
+    .price_table h2 {
+ 
+        font-size: 13px;
+    }
+    .price_list_item li {
+        font-size: 16px;
+    }
+    .accordian_custom_style .vc_tta-title-text{
+        font-size: 15px;
+    }
+    .banner-sec .wpb_text_column.wpb_content_element h2{
+        font-size: 25px;
+    }
+    .banner-sec {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    
+    }
+    .price_table{
+        min-height: 0px;
+    }
+    #LogoSec{
+        max-width: 75px;
+    }
+    .topMenuContainer{
+        border:none;
+    }
+    .slider_last_text{
+        font-size: 10px !important;
+        line-height: 12px !important;
+        padding-top: 20px !important;
+    }
+    .homeFormContainer > .vc_column-inner {
+       width: 100% !important;
+    }
+    .workdetail_after::after{
+        content: "";
+    }
+    .formField {
+        font-size: 14px;
+    }
+    .endUsersContainer .endUsersHeading {
+        padding: 54px 7px;
+        width: 100% !important;
+    }
+    .homeFormContainer > .vc_column-inner {
+        padding:15px !important;
+    }
+    .homeGetForm span.wpcf7-not-valid-tip {
+        font-size: 12px;
+    }
+    .footerMail a{
+        word-wrap: break-word;
+    }
+
+
+}
+@media (max-width:480px) and (min-width:320px)  {
+.endUsersContainer > .vc_column-inner > .wpb_wrapper {
+    border: none;
+   }
+   .endUsersContainer .endUsersHeading {
+    width: 80% !important;
+    margin:auto;
+    }
+}
+
+@media (max-width:767px) and (min-width:480px)  {
+    .contact-us-details .vc_column-inner > .wpb_wrapper {
+        height: 360px;
+    }
+    .contact-us-details.wpb_column.vc_column_container.vc_col-sm-4 {
+        float: left;
+        margin: 0 auto;
+        width: 33% !important;
+    }
+    .contact-us-details h3 {
+      font-size: 15px;
+    }
+    .contact-us-details p {
+       font-size: 13px;
+       word-wrap: break-word;
+    }
+
+}
+
+@media (max-width:766px) and (min-width:600px)  {
+   .pricing-plane.wpb_column.vc_column_container.vc_col-sm-6 {
+    margin-left: 7%;
+    width: 85%;
+   }
+}
+
+@media (max-width:737px) and (min-width:400px)  {
+   .pricing-plane.wpb_column.vc_column_container.vc_col-sm-6 {
+    margin-left: 10%;
+    width: 75%;
+   }
+}
+
+@media (min-width:481px) and (max-width:768px)  {
+	.downAppBtns .wpb_wrapper a img{
+    	margin-bottom: 20px !important;
+    }
+    #people_testimonials .profile-circle {
+    	left: 68%;
+	}
+	.truckDetails .wpb_wrapper{
+		max-height: 235px;
+	}
+    .benefitsCols  p{
+    	font-size: 14px;
+    }
+    .mainHeading h1{
+    	font-size: 40px;
+    }
+    .endUsersContainer .endUsersHeading h3{
+    	font-size: 22px;
+    }
+    .hfeed .site{
+    	overflow: hidden;
+    }
+    .footerSocial{
+		text-align: center !important;
+	}
+    .pricing-number .currency {
+        font-size: 35px;
+    }
+    .pricing-number .currency-symbol-left {
+        font-size: 20px;
+        line-height: 50px;
+        padding-right: 5px;
+    }
+    .price_table h2 {
+ 
+     font-size: 16px;
+    }
+    .benefitsCols{
+        width: 31%;
+    }
+    .downloadAppHeading h1{
+        font-size: 22px;
+    }
+    .downloadAppList ul{
+        font-size: 15px;
+    }
+    .contact-us-details .vc_column-inner > .wpb_wrapper{
+        margin-bottom:20px;
+    }
+    .banner-sec {
+        padding-top: 180px;
+        padding-bottom: 20px;
+    }
+    .banner-sec .wpb_text_column.wpb_content_element h2{
+        font-size: 30px;
+    }
+    #LogoSec{
+        max-width: 115px;
+    }
+    .topMenuContainer{
+        border:0 !important;
+    }
+    .homeFormContainer > .vc_column-inner {
+        padding: 81px 50px 30px !important;
+    }
+    .workdetails h1 {
+      font-size: 15px;
+    }
+    .workdetails p {
+       font-size: 13px;
+    }
+    .workdetails {
+      height: 500px;
+    }
+    .workdetail_after::after{
+        right: -40%;
+    }
+    .width50.wpb_column.vc_column_container.vc_col-sm-3 {
+        float: left;
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px)  {
+   #Mainmenu ul li a {
+        padding: 34px 12px;
+        font-size: 15px;
+   }
+   .contact-us-details p {
+        font-size: 13px;
+    }
+    .price_list_item li {
+        font-size: 15px;
+    }
+    .price_table h2 {
+        font-size: 22px;
+    }
+    .workdetails h1 {
+      font-size: 15px;
+    }
+    .workdetails p {
+       font-size: 13px;
+    }
+    
+
+}
+@media(max-width: 1199px) and (min-width: 1025px){
+    .workdetails {height: 480px;}
+}
+@media(max-width: 767px){
+    .footerLogoContainer{text-align: center;}
+    .homeFormContainer > .vc_column-inner{    width: 100% !important;}
+    .custom_form_style .bootstrap-tagsinput input {padding-right: 42px;}
+    .stick #LogoSec img{    margin: 32px 0 0 0;}
+     #LogoSec img{    margin: 32px 0 0 0;}
+     .custom_form_style .bootstrap-tagsinput input{position: relative;padding: 6px 0;}
+     .custom_form_style .bootstrap-tagsinput{padding: 1px 0 23px 14px!important;}
+}
+.pricing-plane.wpb_column.vc_column_container.vc_col-sm-6:nth-child(2n+1){clear:left; }
+.rev-btn a:hover{color: #11A2D9!important;}
+.rev-btn:hover a{color: #11A2D9!important;}
+@media(max-width: 991px) and (min-width: 768px){
+    #people_testimonials .profile-circle{left: 65%;}
+    .endUsersContainer{width: 50%!important;margin-bottom: 20px;}
+    .workdetails {height: 300px;}
+    .workdetails p {font-size: 16px!important;}
+}
+.custom_form_style .bootstrap-tagsinput{    
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 12px;
+    padding: 1px 23px;
+    overflow-x: hidden;
+}
+
+/*#contact_page_form input, #contact_page_form textarea{    padding-right: 53px;}*/
+label.error{color: #11A2D9;margin-left: 14px;    font-weight: 400;}
+#masthead{z-index: 4;background-color: #000000;}
+#wprmenu_bar .wprmenu_icon{    top: 16px;}
+.signup_loader.loader{float: right;margin-top: -44px;margin-right: 18px; border-top: 3px solid #6d6161; border-bottom: 3px solid #6d6161;}
+.success_login{float: right;background: #eb1515;padding: 5px 15px;margin-top: -3px;border-radius: 15px;}
+.alert-success{background-color: transparent;}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none!important; 
+   -moz-appearance:textfield !important;
+  -o-appearance: none!important;
+  margin: 0; 
+}
+
+#wprmenu_bar {
+    position: fixed;
+    top: 0px;
+    background: #0D0D0D;
+    padding: 10px 16px;
+    width: 50px;
+    display: none;
+    cursor: pointer;
+    z-index: 98;
+    overflow: hidden;
+    height: 42px;
+    right: 0;
+    left: 93%;
+    display: none;
+}
+@media(min-width: 768px){
+    .bootstrap-tagsinput input#tags_input_validd{padding-left: 0!important;}
+}
+@media only screen and (max-width: 991px){
+html {
+    margin-top: -42px!important;
+}
+@media(max-width: 480px){
+    #wprmenu_bar {left: 89%;}
+}
+.daterangepicker.show-calendar .calendar{float: none!important;}
+
+@media(max-width: 992px) and (min-width: 768px){
+    .wp-image-152, .wp-image-153{width: 150px;height: 63px;}
+    .benefitsCols{float: left;    margin-left: 2px;    font-size: 14px;}
+}
+.error{text-transform: capitalize!important;}
+@media(max-width: 992px){
+    .formSubmit{    margin-top: 20px!important;}
+}
+@media(max-width: 767px){
+    #contact_page_form .formField{height: 91px;}
+}

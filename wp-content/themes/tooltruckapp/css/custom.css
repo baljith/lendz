@@ -1,0 +1,101 @@
+.btn:active:focus, .btn:focus {
+
+    outline: 0px auto -webkit-focus-ring-color;
+
+    outline-offset: -2px;
+
+}
+
+.banner-sec {
+
+	padding-top: 240px;padding-bottom: 40px;
+
+	position: relative;
+
+}
+
+.banner-sec .container > .vc_column-inner {
+
+	padding: 0;
+
+}
+
+.banner-sec ol.breadcrumb {
+
+	background: transparent none repeat scroll 0 0;
+
+	bottom: 0;
+
+	color: #11A2D9;
+
+	font-size: 16px;
+
+	margin: 0;
+
+	padding: 0;
+
+	position: relative;
+
+	text-align: center;
+
+	width: 100%;
+
+}
+
+.my-custom-breads li a {
+
+	display: inline-block;
+
+	padding-right: 10px;
+
+	position: relative;
+
+}
+
+.my-custom-breads > li {
+
+	display: inline-block;
+
+	margin-right: 10px;
+
+	position: relative;
+
+}
+
+.my-custom-breads li::after {
+
+	content: "";
+
+	font-family: "fontawesome";
+
+	color: #fff;
+
+}
+
+.banner-sec .wpb_text_column.wpb_content_element {
+
+	bottom: 75px;
+
+	float: left;
+
+	margin-bottom: 0;
+
+	position: relative;
+
+	width: 100%;
+
+}
+
+.banner-sec .wpb_text_column.wpb_content_element h2 {
+
+	color: #fff;
+
+	font-size: 42px;
+
+	font-weight: 300;
+
+	text-transform: uppercase;
+
+	margin: 0;
+
+}

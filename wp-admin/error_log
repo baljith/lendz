@@ -1,0 +1,7 @@
+[07-Nov-2017 07:27:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/tooltruc/public_html/wp-content/plugins/duplicator/ctrls/ctrl.tools.php on line 94
+[17-Nov-2017 11:38:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/tooltruc/public_html/wp-content/themes/tooltruckapp/functions.php on line 118
+[17-Nov-2017 11:38:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/tooltruc/public_html/wp-content/themes/tooltruckapp/functions.php on line 118
+[17-Nov-2017 11:38:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/tooltruc/public_html/wp-content/themes/tooltruckapp/functions.php on line 118
+[17-Nov-2017 11:39:01 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/tooltruc/public_html/wp-content/themes/tooltruckapp/functions.php on line 118
+[17-Nov-2017 11:39:06 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/tooltruc/public_html/wp-content/themes/tooltruckapp/functions.php on line 118
+[17-Nov-2017 11:39:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/tooltruc/public_html/wp-content/themes/tooltruckapp/functions.php on line 118

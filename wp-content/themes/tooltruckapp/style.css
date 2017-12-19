@@ -1,0 +1,1192 @@
+@font-face {
+
+    font-family: "Averta Black";
+
+    src: url("fonts/AVERTA-BLACK-5937CBE30AB39.OTF") format("opentype");
+
+}
+
+@font-face {
+
+    font-family: "Averta Demo";
+
+    src: url("fonts/AVERTADEMO-REGULAR.OTF") format("opentype");
+
+}
+
+@font-face {
+
+    font-family: "Averta Light";
+
+    src: url("fonts/AVERTA-LIGHT-5937CBA3908C3.OTF") format("opentype");
+
+}
+
+@font-face {
+
+    font-family: "Averta Bold";
+
+    src: url("fonts/AVERTA-BOLD-5937CBCA0E351.OTF") format("opentype");
+
+}
+
+@font-face {
+
+    font-family: "Averta SemiBold";
+
+    src: url("fonts/AVERTA-SEMIBOLD-5937CBC85D50B.OTF") format("opentype");
+
+}
+
+body {
+
+}
+
+.container {
+
+    margin: auto !important;
+
+}
+
+a:link, a:visited, a:active, a:hover {
+
+    color: #fff !important;
+
+    text-decoration: none !important;
+
+}
+
+.no-pad {
+
+    padding-left: 0 !important;
+
+    padding-right: 0 !important;
+
+}
+
+.no-pad-left {
+
+    padding-left: 0 !important;
+
+}
+
+.no-pad-right {
+
+    padding-right: 0 !important;
+
+}
+
+#masthead {
+
+    background: transparent none repeat scroll 0 0;
+
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 99;
+
+}
+
+.topMenuContainer {
+
+    border-bottom: 1px solid #373737;
+
+    display: block;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.socialMailcontainer {
+
+    font-family: Averta Light;
+
+    margin-right: 20px !important;
+
+}
+
+.socialMailcontainer, .socialMenuTop {
+
+    color: #cccbcb;
+
+    display: inline-block;
+
+    margin: 10px 0 0;
+
+    padding: 0;
+
+}
+
+.socialMenuTop li {
+
+    display: inline-block;
+
+    font-size: 15px;
+
+}
+
+.socialMenuTop li a, .socialMenuTop li a:active, .socialMenuTop li a:visited, .socialMenuTop li a {
+
+    color: #cccbcb;
+
+}
+
+#LogoSec {
+
+    max-width: 175px;
+
+}
+
+#LogoSec img {
+
+    margin: 10px 0;
+
+    max-height: 100%;
+
+    max-width: 100%;
+
+}
+
+#Mainmenu ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: right;
+
+}
+
+#Mainmenu ul li, #Mainmenu ul li a {
+
+    color: #fff;
+
+    display: inline-block;
+
+    font-family: Averta Demo;
+
+    font-size: 17px;
+
+    text-align: justify;
+
+    text-decoration: none !important;
+
+}
+
+
+
+#Mainmenu ul li a {
+
+    padding: 33px 15px;
+
+    transition: all 0.5s ease 0s;
+
+}
+
+#Mainmenu ul li:last-child {
+
+    padding-right: 0;
+
+}
+
+#Mainmenu .menuSignUp {
+
+    padding: 0 0 0 15px !important;
+
+}
+
+#Mainmenu .menuLogin {
+
+    padding: 0 0 0 10px !important;
+
+}
+
+#Mainmenu .menuSignUp a, #Mainmenu .menuLogin a {
+
+    border: 1px solid #fff;
+
+    border-radius: 30px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    width: 110px;
+
+}
+
+#Mainmenu .menuSignUp a:hover {
+
+    background: #11A2D9 none repeat scroll 0 0;
+
+    border-color: #11A2D9 !important;
+
+}
+
+#Mainmenu .menuLogin a {
+
+    background: #11A2D9 none repeat scroll 0 0;
+
+    border-color: #11A2D9 !important;
+
+}
+
+#Mainmenu .menuLogin a:hover {
+
+    background: transparent none repeat scroll 0 0;
+
+    border-color: #fff !important;
+
+}
+
+#Mainmenu ul .menu-item-object-page a:hover {
+
+    border-bottom: 1px solid #11A2D9;
+
+    color: #11A2D9 !important;
+
+    
+
+}
+
+#Mainmenu ul .current_page_item a {
+
+    border-bottom: 1px solid #11A2D9;
+
+    color: #11A2D9 !important;
+
+}
+
+.underlineLeft::after {
+
+    background: #11A2D9 none repeat scroll 0 0;
+
+    bottom: 0;
+
+    content: "";
+
+    height: 2px;
+
+    left: 0;
+
+    position: absolute;
+
+    width: 27px;
+
+}
+
+.underlineCenter h1::after {
+
+    background: #11A2D9 none repeat scroll 0 0;
+
+    bottom: 0;
+
+    content: "";
+
+    height: 2px;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    width: 55px;
+
+}
+
+.underlineLeftMain h1::after {
+
+    background: #11A2D9 none repeat scroll 0 0;
+
+    bottom: 0;
+
+    content: "";
+
+    height: 2px;
+
+    left: 0;
+
+    position: absolute;
+
+    width: 55px;
+
+}
+
+.sliderMainhead h1 {
+
+    font-size: 58px;
+
+    font-weight: 300;
+
+}
+
+#siteFooter {
+
+    background: #000 none repeat scroll 0 0;
+
+    color: #fff;
+
+    font-family: Averta Light;
+
+    padding: 30px 0;
+
+}
+
+.footerContainer {
+
+    border-bottom: 1px solid #373737;
+
+    display: block;
+
+    float: left;
+
+}
+
+.footerContainer .footerLogoContainer {
+
+    margin: 0 0 25px;
+
+}
+
+.footerContainer .footerDescription {
+
+    font-size: 16px;
+
+    margin: 0 0 25px;
+
+}
+
+.copyrightSection {
+
+    float: left;
+
+    margin-top: 20px;
+
+}
+
+.footerHeadings {
+
+    font-family: Averta Demo;
+
+    font-size: 18px;
+
+    padding-bottom: 10px;
+
+    position: relative;
+
+    text-transform: uppercase;
+
+}
+
+.footerMenu ul, .footerContact {
+
+    font-size: 16px;
+
+    list-style-type: none;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+}
+
+.footerMenu ul li, .footerContact li {
+
+    color: #fff;
+
+    line-height: 2;
+
+    padding-left: 25px;
+
+    position: relative;
+
+    text-decoration: none;
+
+}
+
+.footerMenu ul li a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+.footerMenu ul li a::before {
+
+    color: #fff;
+
+    content: "";
+
+    font-family: fontAwesome;
+
+    font-size: 16px;
+
+    left: 0;
+
+    position: absolute;
+
+    top: -1px;
+
+}
+
+.footerContact .footerAddress::before, .footerContact .footerMail::before {
+
+    color: #11A2D9;
+
+    content: "";
+
+    font-family: fontAwesome;
+
+    font-size: 18px;
+
+    left: 0;
+
+    position: absolute;
+
+    top: 1px;
+
+}
+
+.footerContact .footerMail::before {
+
+    content: "";
+
+    font-size: 15px !important;
+
+}
+
+.footerSocial {
+
+    margin-top: 10px;
+
+}
+
+.imageShadow img {
+
+    border-radius: 8px;
+
+    box-shadow: -7px 7px 0 0 #ededed;
+
+}
+
+.homeWelcome {
+
+    background-position: 0 75px;
+
+    background-repeat: no-repeat;
+
+    padding-bottom: 35px;
+
+}
+
+.mainHeading h1 {
+
+    color: #101010;
+
+    font-family: Averta Demo;
+
+    font-size: 46px;
+
+    margin: 0 0 10px;
+
+    padding-bottom: 15px;
+
+    position: relative;
+
+}
+
+.contentDescBold {
+
+    color: #333333;
+
+    font-family: Averta Demo;
+
+    font-size: 18px;
+
+}
+
+.contentDescLight {
+
+    color: #555555;
+
+    font-family: Averta Light;
+
+    font-size: 16px;
+
+}
+
+.readMoreLink a {
+
+    color: #11A2D9 !important;
+
+    font-family: Averta Demo;
+
+    font-size: 17px;
+
+    position: relative;
+
+}
+
+.readMoreLink a::after {
+
+    content: "";
+
+    font-family: fontAwesome;
+
+    font-size: 17px;
+
+    margin-left: 10px;
+
+}
+
+.endUsersContainer > .vc_column-inner > .wpb_wrapper {
+
+    border: 1px solid #ececec;
+
+    margin-top: 90px;
+
+    position: relative;
+
+}
+
+.endUsersContainer .endUsersIcon {
+
+    bottom: 0;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    top: -85px;
+
+}
+
+.endUsersContainer .endUsersHeading {
+
+    background: #fff none repeat scroll 0 0;
+
+    margin-bottom: 0;
+
+    padding: 60px 0 20px;
+
+}
+
+.endUsersContainer .endUsersHeading h3 {
+
+    color: #101010;
+
+    font-family: Averta SemiBold;
+
+    font-size: 26px;
+
+    margin: 0;
+
+}
+
+.signUpButton a, .signUpButton button {
+
+    display: inline-block !important;
+
+    font-family: Averta Demo;
+
+    font-size: 19px !important;
+
+    margin-top: 50px;
+
+    padding: 15px 30px !important;
+
+}
+
+.howTextContainer {
+
+    background: #fcfcfc none repeat scroll 0 0;
+
+    border: 1px solid #eeeeee;
+
+    border-radius: 5px;
+
+    box-shadow: -1px 3px 10px rgba(204, 204, 204, 0.39);
+
+    max-width: 590px;
+
+    padding: 15px !important;
+
+}
+
+.howHeading {
+
+    font-family: Averta Demo;
+
+    font-size: 23px;
+
+    margin: 0 0 10px !important;
+
+}
+
+.howContent {
+
+    margin-bottom: 0 !important;
+
+}
+
+.howImageContainer img {
+
+    width: 140px;
+
+}
+
+.howImageContainer .wpb_single_image {
+
+    margin-bottom: 0 !important;
+
+}
+
+.howDisclaimer {
+
+    border-top: 1px solid #e5e5e5;
+
+    font-family: Averta Light;
+
+    font-size: 20px;
+
+    font-style: italic;
+
+    margin-bottom: 0 !important;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 40px;
+
+    max-width: 70%;
+
+    padding-top: 20px;
+
+    text-align: center;
+
+}
+
+span.rq {
+
+    color: #11A2D9;
+
+}
+
+.benefitsList ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.benefitsList ul li {
+
+    margin-bottom: 10px;
+
+    padding-left: 30px;
+
+    position: relative;
+
+}
+
+.benefitsList ul li::before {
+
+    background-image: url("images/benefitsListIcon.png");
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+    content: "";
+
+    display: inline-block;
+
+    height: 18px;
+
+    left: 0;
+
+    position: absolute;
+
+    top: 1px;
+
+    width: 18px;
+
+}
+
+.benefitsCols {
+
+    display: inline-block;
+
+    font-family: Averta Demo;
+
+    font-size: 17px;
+
+    margin-right: 1%;
+
+    position: relative;
+
+    text-align: center;
+
+    width: 32%;
+
+    margin-bottom: 25px !important;
+
+}
+
+.benefitsCols:last-child {
+
+    margin-right: 0;
+
+}
+
+.benefitsCols > .wpb_wrapper {
+
+    background: #fff none repeat scroll 0 0;
+
+    border: 1px solid #f2f2f2;
+
+    box-shadow: 0 5px 2px -3px #ebedef;
+
+    margin-top: 55px;
+
+    padding: 40px 10px 15px;
+
+    position: relative;
+
+}
+
+.benefitsCols img {
+
+    height: 92px;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    top: -52px;
+
+    width: 92px;
+
+}
+
+.getHeading {
+
+    color: #fff;
+
+    font-family: Averta SemiBold;
+
+    font-size: 32px;
+
+    padding-bottom: 10px;
+
+    position: relative;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+.getHeading::after {
+
+    background: #fff none repeat scroll 0 0;
+
+    bottom: 0;
+
+    content: "";
+
+    height: 2px;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    width: 40px;
+
+}
+
+.homeFormContainer > .vc_column-inner {
+
+    background: #11A2D9 none repeat scroll 0 0;
+
+    border-radius: 5px;
+
+    padding: 35px 50px 30px !important;
+
+    width: 94% !important;
+
+}
+
+.homeFormInner > .vc_column-inner {
+
+    padding: 0 !important;
+
+}
+
+.homeGetForm {
+
+    font-family: Averta Light;
+
+    font-size: 16px;
+
+}
+
+.homeGetForm input, .homeGetForm textarea {
+
+    border: medium none;
+
+    border-radius: 4px;
+
+    height: 50px;
+
+    outline: medium none;
+
+    width: 100%;
+
+}
+
+.homeGetForm .formField {
+
+    height: 71px;
+
+}
+
+.homeGetForm .formTextArea {
+
+    height: 155px;
+
+}
+
+.homeGetForm textarea {
+
+    height: 125px !important;
+
+    padding: 15px;
+
+}
+
+.homeGetForm .formSubmit {
+
+    margin-top: 5px;
+
+    text-align: center;
+
+}
+
+.homeGetForm input[type="submit"] {
+
+    background: #0b0b0b none repeat scroll 0 0;
+
+    border-radius: 30px;
+
+    color: #fff;
+
+    font-family: Averta Demo;
+
+    font-size: 19px;
+
+    height: 55px;
+
+    padding: 5px;
+
+    width: 190px;
+
+}
+
+.homeGetForm .formField .homeName, .homeGetForm .formField .homephoneNumber, .homeGetForm .formField .homeemail, .homeGetForm .formField .homesubject {
+
+    background-position: 95% center;
+
+    background-repeat: no-repeat;
+
+    padding: 15px 55px 15px 15px;
+
+}
+
+.homeGetForm .formField .homeName {
+
+    background-image: url("images/InputUser.png");
+
+}
+
+.homeGetForm .formField .homephoneNumber {
+
+    background-image: url("images/InputPhone.png");
+
+}
+
+.homeGetForm .formField .homeemail {
+
+    background-image: url("images/InputEmail.png");
+
+}
+
+.homeGetForm .formField .homesubject {
+
+    background-image: url("images/InputSub.png");
+
+}
+
+.homeGetForm span.wpcf7-not-valid-tip {
+
+    color: #fff;
+
+    font-size: 14px;
+
+}
+
+.downloadAppHeading h1 {
+
+    color: #fff;
+
+    font-family: Averta Demo;
+
+    font-size: 37px;
+
+    padding-bottom: 20px;
+
+    position: relative;
+
+}
+
+.downloadAppList ul {
+
+    color: #fff;
+
+    font-family: Averta Light;
+
+    font-size: 18px;
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.downloadAppList ul li {
+
+    padding-left: 35px;
+
+    position: relative;
+
+}
+
+.downloadAppList ul li:not(:last-child) {
+
+    margin-bottom: 15px;
+
+}
+
+.downloadAppList ul li::before {
+
+    background-image: url("images/AppListIcon.png");
+
+    background-repeat: no-repeat;
+
+    content: "";
+
+    height: 21px;
+
+    left: 0;
+
+    position: absolute;
+
+    top: 3px;
+
+    width: 21px;
+
+}
+
+.downAppBtns {
+
+    border-top: 1px solid #4d4d4d;
+
+    color: #fff;
+
+    margin-bottom: 30px !important;
+
+}
+
+.downAppBtns h3 {
+
+    font-family: Averta Demo;
+
+    font-size: 22px;
+
+    margin-bottom: 20px;
+
+}
+
+.truckDetails {
+
+    margin-bottom: 0 !important;
+
+}
+
+.truckDetails .wpb_wrapper {
+
+    border: 1px solid #f47877;
+
+    color: #fff;
+
+    font-family: Averta Light;
+
+    font-size: 18px;
+
+    margin: 15px 0 !important;
+
+    padding: 30px 15px;
+
+    text-align: center;
+
+}
+
+.truckDetails .wpb_wrapper h3 {
+
+    font-family: Averta SemiBold;
+
+    font-size: 46px;
+
+}
+
+ 	
+
+
+
+ #wprmenu_bar .wprmenu_icon{
+
+float:right!important;
+
+}
+
+
+
+.menu_title{display:none;}
+
+#wprmenu_bar{position:!important;}
+
+#wprmenu_bar {
+
+    background: black !important ;
+
+}
+
+
+
+#wprmenu_bar .wprmenu_icon {
+
+    position: absolute !important;
+
+    top: 16px;
+
+    right: 9px;
+
+}
+
+#wprmenu_bar {
+
+    overflow: visible !important;
+
+}
+
+body{left:0 !important;}
+
+.fullwidthbanner-container{left:-15px!important;}
+
+#wprmenu_menu.left, #wprmenu_menu.right{top:0!important; z-index:200;}
+
+.workdetails:after{top:30px!important;}
+
+
+
+.workdetails {
+
+    text-align: center;
+
+}
+
+
+
+.workdetails h3 {
+
+    font-size: 18px !important;
+
+    line-height: 1.4;
+
+    margin: 7px 0 !important;
+
+}
+
+
+
+
+
+.form-group h3.cr-h {
+
+    color: #171717;
+
+    font-size: 20px;
+
+    position: relative;
+
+    font-family: inherit;
+
+    margin-top: 0;
+
+    padding-bottom: 5px;
+
+}
+
+.form-group .cr-img{margin: 10px 0;}
+
+.form-group h3.cr-h:after{position: absolute;content: "";border: 1px solid #E30020; bottom: 0;width: 28px;left: 0;}
+
+
+
+@media only screen and (max-width:767px){
+
+#LogoSec{margin-top:-30px;}
+
+.workdetails{height:auto!important;}
+
+}
+
+
+
+.post-ratings img, .post-ratings-loading img, .post-ratings-image img{
+
+    width: 12px!important;
+
+float: left!important;
+
+}
+
+}
+
+.post-ratings{line-height:11px!important;}
+

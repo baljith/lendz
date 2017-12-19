@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-12-14 11:21:04
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.20
+WORDPRESS:	4.8.4
+PHP INFO:	5.6.24 | SAPI: apache2handler
+SERVER:		Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.24 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 26.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:58 | filtered:0 | create:58 
+FILTERED: [] 
+SQL CREATED: 20171214_lendz_a0791b40731ae8e35036171214112044_database.sql 
+SQL FILE SIZE: 6.31MB (6618783) 
+SQL FILE TIME: 2017-12-14 11:21:10 
+SQL RUNTIME: 6.18 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  D:/xampp/htdocs/lendz 
+ARCHIVE FILE: 20171214_lendz_a0791b40731ae8e35036171214112044_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	184.23MB 
+STATS:	Dirs 2,079 | Files 15,392 
+SQL ADDED: 20171214_lendz_a0791b40731ae8e35036171214112044_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 17471
+    [filename] => D:\xampp\htdocs\lendz\wp-snapshots\tmp\20171214_lendz_a0791b40731ae8e35036171214112044_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 83.38MB 
+ARCHIVE RUNTIME: 201.49 sec. 
+MEMORY STACK: 31.5MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [D:/xampp/htdocs/lendz/wp-snapshots/tmp/20171214_lendz_a0791b40731ae8e35036171214112044_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 6.31MB 
+Installer File: 434.94KB 
+Archive File: 83.38MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 215.46 sec.
+PEAK PHP MEMORY USED: 34.75MB
+DONE PROCESSING => 20171214_lendz 2017-12-14 11:24:39
+ 
